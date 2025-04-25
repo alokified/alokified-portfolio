@@ -12,11 +12,11 @@ import { Github, Linkedin, Twitter, Mail, Code, Briefcase, Award, GraduationCap,
 
 export const personalInfo = {
   name: 'Alok Shah',
-  title: 'Computer Science Engineer | Full Stack Developer ',
+  title: 'Computer Science Engineer | Full Stack Developer | Open Source Enthusiast',
   description: 'Passionate about creating secure, performant web experiences.',
   location: 'New Delhi, India',
-  email: 'alokshah951@gmail.com',
-  phone: '+91 9022882705',
+  email: 'alok@example.com',
+  phone: '+91 9876543210',
   resume: '/resume.pdf'
 };
 
@@ -94,9 +94,10 @@ export const projects = [
 export const codingProfiles = [
   {
     platform: 'LeetCode',
-    username: 'alokified',
-    url: 'https://leetcode.com/u/alokified/',
-   
+    username: 'alok_coder',
+    url: 'https://leetcode.com/alok_coder/',
+    rating: '1850+ Rating',
+    solved: 450,
     icon: 'LeetCode'
   },
   {
