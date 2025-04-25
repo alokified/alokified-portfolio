@@ -19,7 +19,7 @@ const EducationSection: React.FC = () => {
     },
     {
       degree: "Matriculation (10th)",
-      institution: "Secondary School",
+      institution: "Dolphin High School",
       period: "2018 - 2019",
       details: "77.8%"
     }
