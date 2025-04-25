@@ -139,25 +139,18 @@ const HeroSection: React.FC = () => {
             </div>
             
             {/* CTA buttons */}
-            <div className="flex gap-4">
-              <motion.a 
-                href="#contact" 
-                className="btn-primary text-lg"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Get In Touch
-              </motion.a>
-              <motion.a 
-                href={personalInfo.resume} 
-                className="btn-outline text-lg flex items-center justify-center gap-2"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <Download size={20} />
-                Download Resume
-              </motion.a>
-            </div>
+            <motion.a 
+  href={personalInfo.resume} 
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn-outline text-lg flex items-center justify-center gap-2"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+>
+  <Download size={20} />
+  Download Resume
+</motion.a>
+
           </motion.div>
           
           {/* Profile picture */}

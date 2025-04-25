@@ -8,20 +8,20 @@ const EducationSection: React.FC = () => {
     {
       degree: "Bachelor of Technology in Computer Science Engineering",
       institution: "Lovely Professional University",
-      period: "2020 - 2024",
-      details: "Specialized in Computer Science with focus on software development and engineering principles."
+      period: "2022 - 2026",
+      details: "7.04 CGPA"
     },
     {
       degree: "Intermediate (12th)",
-      institution: "Higher Secondary School",
-      period: "2018 - 2020",
-      details: "Completed intermediate education with focus on Science and Mathematics."
+      institution: "S.R. Public School",
+      period: "2020 - 2021",
+      details: "74.6%"
     },
     {
       degree: "Matriculation (10th)",
       institution: "Secondary School",
-      period: "2016 - 2018",
-      details: "Completed secondary education with distinction."
+      period: "2018 - 2019",
+      details: "77.8%"
     }
   ];
 

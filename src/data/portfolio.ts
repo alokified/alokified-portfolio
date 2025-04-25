@@ -12,7 +12,7 @@ import { Github, Linkedin, Twitter, Mail, Code, Briefcase, Award, GraduationCap,
 
 export const personalInfo = {
   name: 'Alok Shah',
-  title: 'Computer Science Engineer | Full Stack Developer | Open Source Enthusiast | Web Developer',
+  title: 'Computer Science Engineer | Full Stack Developer| Web Developer',
   description: 'Passionate about creating secure, performant web experiences.',
   location: 'Nagpur, Maharashtra, India',
   email: 'aloksha951@gmail.com',
