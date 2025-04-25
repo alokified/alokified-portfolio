@@ -148,7 +148,7 @@ export const achievements = [
     title: 'University Hackathon',
     organization: 'Tech University',
     date: 'March 2024',
-    description: 'Won first place for developing an innovative solution for educational accessibility.',
+    description: 'Recieved Certificate of Excellence for outstanding performance in the university hackathon.',
     category: 'award'
   },
   {
