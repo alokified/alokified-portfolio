@@ -70,8 +70,7 @@ export const projects = [
     githubUrl: 'https://github.com/alok/encryption-system',
     technologies: ['C++', 'OpenSSL', 'Cryptography'],
     category: 'academic'
-  },
-  {
+//////  {
     id: 'p5',
     title: 'Portfolio Website for Client',
     description: 'Designed and developed a personalized portfolio website for a photographer client.',
