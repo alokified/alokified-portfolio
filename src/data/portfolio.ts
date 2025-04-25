@@ -12,11 +12,11 @@ import { Github, Linkedin, Twitter, Mail, Code, Briefcase, Award, GraduationCap,
 
 export const personalInfo = {
   name: 'Alok Shah',
-  title: 'Computer Science Engineer | Full Stack Developer | Open Source Enthusiast',
+  title: 'Computer Science Engineer | Full Stack Developer | Open Source Enthusiast | Web Developer',
   description: 'Passionate about creating secure, performant web experiences.',
-  location: 'New Delhi, India',
-  email: 'alok@example.com',
-  phone: '+91 9876543210',
+  location: 'Nagpur, Maharashtra, India',
+  email: 'aloksha951@gmail.com',
+  phone: '+91 9022882705',
   resume: '/resume.pdf'
 };
 
@@ -94,32 +94,32 @@ export const projects = [
 export const codingProfiles = [
   {
     platform: 'LeetCode',
-    username: 'alok_coder',
-    url: 'https://leetcode.com/alok_coder/',
-    rating: '1850+ Rating',
-    solved: 450,
+    username: 'alokified',
+    url: 'https://leetcode.com/alokified/',
+    
+    solved: 22,
     icon: 'LeetCode'
   },
   {
     platform: 'Codeforces',
-    username: 'alok_cp',
+    username: 'alokshah',
     url: 'https://codeforces.com/profile/alok_cp',
-    rating: 'Specialist (1400+)',
-    solved: 300,
+    rating: '',
+    solved: 3,
     icon: 'Codeforces'
   },
   {
     platform: 'HackerRank',
-    username: 'alok_hr',
-    url: 'https://www.hackerrank.com/alok_hr',
-    rating: '5 Star in Problem Solving',
+    username: 'alokshah951',
+    url: 'https://www.hackerrank.com/profile/alokshah951',
+    rating: '1 Star in Problem Solving',
     icon: 'HackerRank'
   },
   {
     platform: 'CodeChef',
     username: 'alok_chef',
     url: 'https://www.codechef.com/users/alok_chef',
-    rating: '4 Star (1800+)',
+    rating: '',
     icon: 'CodeChef'
   }
 ];
@@ -127,19 +127,20 @@ export const codingProfiles = [
 export const achievements = [
   {
     id: 'a1',
-    title: 'AWS Certified Solutions Architect',
+    title: 'Programming in C++: A Hands-on Introduction',
     organization: 'Amazon Web Services',
     date: 'December 2024',
-    description: 'Advanced certification for designing distributed systems on AWS.',
-    url: 'https://aws.amazon.com/certification/',
+    description: 'This specialization is intended for people without programming experience who seek to develop C++ programming skills and learn about the underlying computer science concepts that will allow them to pick up other programming languages quickly. In these four courses, you will cover everything from fundamentals to objectoriented design. These topics will help prepare you to write anything from small programs to automate repetitive tasks to larger applications, giving you enough understanding of C++ to tackle more specialized topics such as Data Science and Artificial Intelligence.',
+    url: 'https://www.coursera.org/account/accomplishments/specialization/7BCUNQQDR7ZP',
     category: 'certification'
   },
   {
     id: 'a2',
-    title: 'Google Cloud Professional Developer',
+    title: 'Server side JavaScript with Node.js',
     organization: 'Google Cloud',
     date: 'October 2024',
-    description: 'Professional certification for developing applications on Google Cloud Platform.',
+    description: 'Professional certification for server side JavaScript with Node.js',
+    url: 'https://www.coursera.org/account/accomplishments/verify/SK5YHM7TLHCH',
     category: 'certification'
   },
   {
@@ -172,27 +173,27 @@ export const achievements = [
 export const hackathons = [
   {
     id: 'h1',
-    name: 'Tech4Good Hackathon',
+    name: 'Apna college Hackathon',
     date: 'May 2024',
-    projectName: 'AccessiBuddy',
+    projectName: 'E-Commerce Shopping Website',
     role: 'Full Stack Developer',
-    result: '1st Place',
-    description: 'Developed an application to assist people with disabilities navigate public spaces.',
+    result: 'Final Round',
+    description: 'Developed a full-stack e-commerce website with user authentication, product catalog, and payment processing.',
     teamSize: 4
   },
   {
     id: 'h2',
-    name: 'FinTech Innovation Challenge',
+    name: 'Smart India Hackathon',
     date: 'August 2024',
-    projectName: 'SmartBudget',
+    projectName: 'DDoS Detection System',
     role: 'Backend Developer',
-    result: 'Top 5 Finalist',
-    description: 'Created a financial management tool with AI-powered insights.',
+    result: 'Qualified',
+    description: 'Created a Traffic Management System to detect and mitigate DDoS attacks using machine learning.',
     teamSize: 3
   },
   {
     id: 'h3',
-    name: 'Healthcare Hackathon',
+    name: 'College Hackathon',
     date: 'November 2024',
     projectName: 'MediTrack',
     role: 'Frontend Developer & UI/UX',
@@ -204,10 +205,10 @@ export const hackathons = [
 export const extracurriculars = [
   {
     id: 'e1',
-    title: 'Coding Club Leader',
+    title: 'Coding Club Member',
     organization: 'University Tech Club',
     description: 'Led weekly coding sessions and workshops for junior students.',
-    period: '2023 - Present'
+    period: '2024 - Present'
   },
   {
     id: 'e2',
@@ -219,13 +220,12 @@ export const extracurriculars = [
     id: 'e3',
     title: 'Volunteer Web Developer',
     organization: 'Local Non-Profit',
-    description: 'Developed and maintained websites for local non-profit organizations.',
+    description: 'Developed and maintained websites for local Soul Foundation non-profit organization.',
     period: '2023 - Present'
   },
   {
     id: 'e4',
     title: 'Chess Player',
-    organization: 'University Chess Club',
     description: 'Competitive chess player with participation in regional tournaments.',
     period: '2021 - Present'
   }
@@ -234,22 +234,18 @@ export const extracurriculars = [
 export const socialLinks = [
   {
     name: 'GitHub',
-    url: 'https://github.com/alok',
+    url: 'https://github.com/alokified',
     icon: 'Github'
   },
   {
     name: 'LinkedIn',
-    url: 'https://linkedin.com/in/alok',
+    url: 'https://linkedin.com/in/alokshah951',
     icon: 'Linkedin'
   },
-  {
-    name: 'Twitter',
-    url: 'https://twitter.com/alok',
-    icon: 'Twitter'
-  },
+ 
   {
     name: 'Email',
-    url: 'mailto:alok@example.com',
+    url: 'mailto:alokshah951@gmail.com',
     icon: 'Mail'
   }
 ];

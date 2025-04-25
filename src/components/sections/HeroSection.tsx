@@ -242,7 +242,7 @@ const HeroSection: React.FC = () => {
               />
               <div className="relative rounded-full overflow-hidden border-2 border-zinc-800/50 aspect-square">
                 <img
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
+                  src="https://media.licdn.com/dms/image/v2/D4E03AQEvAhuHetaUUw/profile-displayphoto-shrink_400_400/B4EZZr3fWRGYAk-/0/1745566431896?e=1750896000&v=beta&t=btieVwUc_BOitB9fhB1dNw3-zW1q317QdzSzADHNqYk"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
