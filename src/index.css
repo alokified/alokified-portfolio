@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neon-blue: #00f3ff;
+  --neon-purple: #9d00ff;
+  --neon-pink: #ff00ea;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply bg-black text-white font-inter;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400;
+  }
+  
+  .card {
+    @apply rounded-lg p-6 transition-all duration-300 bg-gradient-to-br from-zinc-900/80 to-black/90 backdrop-blur-sm border border-zinc-800/50;
+  }
+  
+  .btn {
+    @apply px-6 py-3 rounded-md font-medium transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply btn bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-700 hover:to-indigo-700 text-white;
+  }
+  
+  .btn-outline {
+    @apply btn border border-zinc-700 hover:border-white text-zinc-400 hover:text-white;
+  }
+  
+  .nav-link {
+    @apply relative px-2 py-1 text-zinc-400 hover:text-white transition-colors duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-violet-500 after:to-indigo-500 after:transition-all after:duration-300 hover:after:w-full;
+  }
+  
+  .nav-link-active {
+    @apply text-white after:w-full;
+  }
+  
+  .glass-card {
+    @apply bg-zinc-900/30 backdrop-blur-md border border-zinc-800/50 rounded-lg shadow-lg;
+  }
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-zinc-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-zinc-600;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.neon-border {
+  box-shadow: 0 0 5px var(--neon-blue), 
+              0 0 10px var(--neon-purple), 
+              0 0 15px var(--neon-pink);
+}
+
+/* Neon animation keyframes */
+@keyframes neonPulse {
+  0% {
+    filter: drop-shadow(0 0 2px var(--neon-blue))
+           drop-shadow(0 0 4px var(--neon-purple))
+           drop-shadow(0 0 6px var(--neon-pink));
+  }
+  50% {
+    filter: drop-shadow(0 0 4px var(--neon-blue))
+           drop-shadow(0 0 8px var(--neon-purple))
+           drop-shadow(0 0 12px var(--neon-pink));
+  }
+  100% {
+    filter: drop-shadow(0 0 2px var(--neon-blue))
+           drop-shadow(0 0 4px var(--neon-purple))
+           drop-shadow(0 0 6px var(--neon-pink));
+  }
+}
+
+.neon-animate {
+  animation: neonPulse 2s ease-in-out infinite;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 640px) {
+  .section-container {
+    @apply py-12;
+  }
+  
+  .card {
+    @apply p-4;
+  }
+}
