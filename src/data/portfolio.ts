@@ -12,7 +12,7 @@ import { Github, Linkedin, Twitter, Mail, Code, Briefcase, Award, GraduationCap,
 
 export const personalInfo = {
   name: 'Alok Shah',
-  title: 'Computer Science Engineer | Full Stack Developer| Web Developer',
+  title: 'Computer Science Engineer | Full Stack Developer | Web Developer',
   description: 'Passionate about creating secure, performant web experiences.',
   location: 'Nagpur, Maharashtra, India',
   email: 'aloksha951@gmail.com',
@@ -70,7 +70,8 @@ export const projects = [
     githubUrl: 'https://github.com/alok/encryption-system',
     technologies: ['C++', 'OpenSSL', 'Cryptography'],
     category: 'academic'
-//////  {
+  },
+  {
     id: 'p5',
     title: 'Portfolio Website for Client',
     description: 'Designed and developed a personalized portfolio website for a photographer client.',
