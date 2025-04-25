@@ -145,7 +145,7 @@ export const achievements = [
   },
   {
     id: 'a3',
-    title: '1st Place - University Hackathon',
+    title: 'University Hackathon',
     organization: 'Tech University',
     date: 'March 2024',
     description: 'Won first place for developing an innovative solution for educational accessibility.',
